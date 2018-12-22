@@ -1,0 +1,9 @@
+# Added with the blog template.
+_site
+.sass-cache
+.jekyll-metadata
+
+# Manually added.
+.bundle
+vendor/
+Gemfile.lock
