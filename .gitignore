@@ -1,9 +1,9 @@
-# Added with the blog template.
-_site
-.sass-cache
-.jekyll-metadata
+_site/
+.sass-cache/
 
-# Manually added.
-.bundle
+.bundle/
 vendor/
 Gemfile.lock
+
+# This metadata line was added by `jekyll new PATH`.
+.jekyll-metadata
