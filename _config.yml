@@ -15,6 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Jekyll Blog Demo
 email: your-email@example.com
+
+# If you leave the description blank and publish to Github Pages, it will take your Git
+# repo's description. At least the way the theme is setup.
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -30,9 +33,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
 # Exclude from processing.
+# We want to only copy to the _site directory the files and directories which we want to be
+# served publically.
+
 # The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# to override the default setting. If you use exclude with one item, you will get an error on
+# building since jekyll will try to process things in the vendor directory which it should not.
+
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
@@ -41,3 +50,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# My own recommendation is to add README.md, LICENSE and replace vendor as a top level directory
+# unless there is a need to separate them.
+
+# Jekyll will also avoid processing files which with an underscore. So if you have something
+# like an commited notes.txt file and you want to do a local build, then rename it _notes.txt
+# so that it is not copied to _sites directory.
