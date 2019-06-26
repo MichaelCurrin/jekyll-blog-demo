@@ -1,9 +1,14 @@
+# Generated output.
 _site/
+
 .sass-cache/
 
+# Bundle's config.
 .bundle/
 vendor/
 Gemfile.lock
 
-# This metadata line was added by `jekyll new PATH`.
+# This was added when running
+#  jekyll new PATH
+# I don't know what it's for.
 .jekyll-metadata
