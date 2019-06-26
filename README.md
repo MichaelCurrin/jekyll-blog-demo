@@ -23,9 +23,6 @@ A small detail on how this is hosted on Github Pages - since this is hosted a _P
 
 This project uses the following gems:
 
-- [jekyll](https://github.com/jekyll/jekyll)
-    > "Jekyll is a blog-aware static site generator in Ruby"
-- [minima](https://github.com/jekyll/minima)
-    > _"Minima is a one-size-fits-all Jekyll theme for writers."_
-- [jekyll-feed](https://github.com/jekyll/jekyll-feed)
-    > _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
+- [jekyll](https://github.com/jekyll/jekyll) - _"Jekyll is a blog-aware static site generator in Ruby"_
+- [minima](https://github.com/jekyll/minima) - _"Minima is a one-size-fits-all Jekyll theme for writers."_
+- [jekyll-feed](https://github.com/jekyll/jekyll-feed) - _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
