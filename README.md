@@ -16,7 +16,7 @@ This project was setup to run both locally and on Github Pages.
 
 For instructions on how to setup and run this project locally, see my [gist](https://gist.github.com/MichaelCurrin/1085ab164550b31272699920b5549d4b).
 
-Since this is a _Project Page_ and not a _User Page_, the assets are relative to the root domain by default and that gives `404` errors. Therefore the empty `baseurl` in [config file](_config.yml) had to be replaced with a value.
+A small detail on how this is hosted on Github Pages - since this is hosted a _Project Page_ on a _Github.io_ path and not a _User Page_ on a root, the assets are reference relative to the root domain by default. So that would give `404` errors without modification. Therefore, the empty `baseurl` in [config file](_config.yml) was replaced with a value.
 
 
 ## Gems
