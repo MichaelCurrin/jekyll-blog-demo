@@ -21,8 +21,8 @@ A small detail on how this is hosted on Github Pages - since this is hosted a _P
 
 ## Gems
 
-This project uses the following gems:
+This project uses the following gems, which came with the sample blog:
 
-- [jekyll](https://github.com/jekyll/jekyll) - _"Jekyll is a blog-aware static site generator in Ruby"_
-- [minima](https://github.com/jekyll/minima) - _"Minima is a one-size-fits-all Jekyll theme for writers."_
-- [jekyll-feed](https://github.com/jekyll/jekyll-feed) - _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
+- [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. _"Jekyll is a blog-aware static site generator in Ruby"_ 
+- [minima](https://github.com/jekyll/minima) - This is a theme to add styling to built pages. _"Minima is a one-size-fits-all Jekyll theme for writers."_ 
+- [jekyll-feed](https://github.com/jekyll/jekyll-feed) - Produce RSS feed. _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
