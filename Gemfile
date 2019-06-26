@@ -1,17 +1,12 @@
 # This Gemfile is used when running Jekyll locally i.e. it is ignored by
 # Github Pages. Specifies the source and the gems needed to be downloaded
 # (with set versions).
-
+#
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
 # This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# (Note that this is not necessary if you have installed jekyll at the user level,
+# unless you do want a specific local version.)
 gem "jekyll", "~> 3.8.5"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
