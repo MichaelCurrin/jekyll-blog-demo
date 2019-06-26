@@ -1,3 +1,7 @@
+# This Gemfile is used when running Jekyll locally i.e. it is ignored by
+# Github Pages. Specifies the source and the gems needed to be downloaded
+# (with set versions).
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
