@@ -6,7 +6,9 @@
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please stop and start the
+# server process to get the changes.
+
 
 ### Site settings ###
 
@@ -24,11 +26,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/jekyll-blog-demo" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""  # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
 ### Build settings ###
+
 markdown: kramdown
 theme: minima
 plugins:
