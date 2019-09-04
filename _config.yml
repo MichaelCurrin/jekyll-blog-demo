@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
 
 
-### Include from processing ###
+### Include for processing ###
 
 # Jekyll will not process paths starting an underscore or dot, except of course
 # the underscore directories which it expects like _posts.
