@@ -46,8 +46,11 @@ plugins:
 
 
 ### Exclude from processing ###
+
 # We want to only copy to the _site directory the files and directories which we want to be
 # served publically.
+
+# At the very least, set the below in your `exclude `field.
 
 exclude:
   - vendor/
@@ -56,13 +59,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Additions, if relevant for your project:
+# Add these, if relevant for your project:
 # - bin/
 # - docs/
 # - node_modules/
 
-# If you do not set exclude, the following items will not be processed by default.
-# exclude:
+# If you leave `exclude` out of your config, you will still get the fallback values below:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
