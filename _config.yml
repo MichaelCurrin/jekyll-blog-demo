@@ -1,23 +1,25 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
+#
+# You can use this file to set fields recognized by Jekyll or plugins and also
+# any custom field names which you want to use in your site.
+#
+# Though, this config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please stop and start the
-# server process to get the changes.
+# 'bundle exec jekyll serve'. If you change this file, please stop and start server.
 
 
-### Site settings ###
+### Site metadata ###
 
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jekyll Blog Demo
-email: your-email@example.com
 
 # If you leave the description blank and publish to Github Pages, it will take your Git
 # repo's description. At least the way the theme is setup.
@@ -25,13 +27,18 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/jekyll-blog-demo" # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site, e.g. https://example.com
+  
+email: your-email@example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 
 ### Build settings ###
+
+# the subpath of your site, e.g. /blog
+baseurl: "/jekyll-blog-demo"
+# the base hostname & protocol for your site, e.g. https://example.com
+url: ""
 
 markdown: kramdown
 theme: minima
@@ -39,7 +46,7 @@ plugins:
   - jekyll-feed
 
 
-### Include for processing ###
+# Include for processing
 
 # Jekyll will not process paths starting an underscore or dot, except of course
 # the underscore directories which it expects like _posts.
@@ -49,7 +56,7 @@ plugins:
 #   - '_pages'
 
 
-### Exclude from processing ###
+# Exclude from processing
 
 # We want to only copy to the _site directory the files and directories which we want to be
 # served publically.
