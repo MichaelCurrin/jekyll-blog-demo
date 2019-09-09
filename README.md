@@ -10,13 +10,20 @@ $ jekyll new jekyll-blog-demo
 ```
 
 
-## Setup and Run
+## Usage
 
-This project was setup to run both locally and on Github Pages.
+This project can be run both locally and on Github Pages.
 
-For instructions on how to setup and run this project locally, see my [gist](https://gist.github.com/MichaelCurrin/1085ab164550b31272699920b5549d4b).
+### Setup and run
 
-A small detail on how this is hosted on Github Pages - since this is hosted a _Project Page_ on a _Github.io_ path and not a _User Page_ on a root, the assets are reference relative to the root domain by default. So that would give `404` errors without modification. Therefore, the empty `baseurl` in [config file](_config.yml) was replaced with a value.
+Follow this [setup and run](https://github.com/MichaelCurrin/static-sites-generator-resources/blob/master/Jekyll/setup_and_run.md) guide. In particular, see the _With a Gemfile_ section's _Installation_ and _Run_ sections.
+
+### Customization
+
+Create a project from this template or fork it. Then update it to suit your own needs.
+
+- Replace the `baseurl` value in the [config](/_config.yml) with your own project's name.
+- To change the theme, set one in both the [config](/_config.yml) (for Github Pages) and [Gemfile](/Gemfile) (for local builds).
 
 
 ## Gems
