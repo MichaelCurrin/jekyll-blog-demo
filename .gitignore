@@ -8,7 +8,5 @@ _site/
 vendor/
 Gemfile.lock
 
-# This was added when running
-#  jekyll new PATH
-# I don't know what it's for.
+# This file added when running `jekyll new PATH` or serving in incremental mode.
 .jekyll-metadata
