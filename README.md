@@ -1,9 +1,21 @@
 # Jekyll Blog Demo
 > Minimal base for a static website - built with Jekyll.
 
-This project lets you build and serve statically generated site. Jekyll is used to compile the static HTML assets using templates in the repo. The main content files are markdown and HTML files at the top-level directory. There some markdown post files in a subdirectory - you can delete this directory if you don't need blog posts.
+There is just enough content and styling to show what a website looks like.
+
+- The [minima](https://github.com/jekyll/minima) Jekyll theme is used. 
+- The main content pages are markdown and HTML files at the top-level directory.
+- Blog posts are in a subdirectory - you can delete this that if you don't need it.
+- The pages use "layout" fields to point to template files for tyling and structure. There are no layouts in this project - the  theme's layouts are referenced though.
+
 
 ## Background
+
+The Github Page service lets you build and serve a statically generated site.
+
+The most basic way is to serve some flat HTML files (and other assets) without any logic. This is great for a one page site with custom styling (rather than using a theme).
+
+Another way is to use a Jekyll-based project. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files. This project is a base setup for the latter.
 
 This repo is based on an example provided by Jekyll, available as the [jekyll/example](https://github.com/jekyll/example) repo. One way to get that example is to run the command from a [Jekyll](https://jekyllrb.com/) tutorial:
 
