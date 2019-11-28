@@ -1,9 +1,11 @@
 # Jekyll Blog Demo
-> Minimal base for a static site blog - built on Jekyll.
+> Minimal base for a static website - built with Jekyll.
 
-This project demonstrates how to build a static site with a few pieces of content template files which are built into full webpages with more structure and style. The content files are markdown and HTML files at the top-level and some markdown post files in a subdirectory.
+This project lets you build and serve statically generated site. Jekyll is used to compile the static HTML assets using templates in the repo. The main content files are markdown and HTML files at the top-level directory. There some markdown post files in a subdirectory - you can delete this directory if you don't need blog posts.
 
-This repo was based on an example provided by Jekyll as the [jekyll/example](https://github.com/jekyll/example) repo. One way to get that example is to run the command from a [Jekyll](https://jekyllrb.com/) tutorial:
+## Background
+
+This repo is based on an example provided by Jekyll, available as the [jekyll/example](https://github.com/jekyll/example) repo. One way to get that example is to run the command from a [Jekyll](https://jekyllrb.com/) tutorial:
 
 ```bash
 $ jekyll new jekyll-blog-demo
@@ -12,7 +14,7 @@ $ jekyll new jekyll-blog-demo
 
 ## Usage
 
-This project can be run both locally and on Github Pages.
+Run this project on a local webserver or on Github Pages.
 
 ### Setup and run
 
@@ -24,6 +26,8 @@ Create a project from this template or fork it. Then update it to suit your own 
 
 - Replace the `baseurl` value in the [config](/_config.yml) with your own project's name.
 - To change the theme, set one in both the [config](/_config.yml) and [Gemfile](/Gemfile). Both are needed for a local builds, while only the config needs to be set for Github Pages builds, at least for the builtin themes on Github Pages.
+
+You can remove these and add more content pages or blog posts. If you don't need markdown you can convert files from `.md` to `.html` and change the content. 
 
 
 ## Gems
