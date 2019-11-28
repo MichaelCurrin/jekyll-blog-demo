@@ -1,22 +1,27 @@
 # Jekyll Blog Demo
 > Minimal base for a static website - built with Jekyll.
 
+## Features
+
 There is just enough content and styling to show what a website looks like.
 
 - [Jekyll](https://jekyllrb.com/) is needed to build the site locally. Only a simple repo configuration change is needed to get this served as your own Github Pages site - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 - The [minima](https://github.com/jekyll/minima) Jekyll theme is used for styling.
 - The main content pages are markdown and HTML files at the top-level directory. Blog posts are in a subdirectory - you can delete this that if you don't need it.
 - The pages use "layout" fields to point to template files for tyling and structure. There are no layouts in this project as the  theme's layouts are referenced though.
-- Jekyll builds to a `_site` directory both locally and on Github Pages. That direcotry contains public content that is served from the site's root URL. Certain files are not copied there based on Jekyll's rules and you can also added to the `excludes` field in the config. This prevents templates, the license and other private files from being served on the site.
-
+- Jekyll builds to a `_site` directory both locally and on Github Pages. That directry contains public content that is served from the site's root URL. Certain files are not copied there based on Jekyll's rules and you can also added to the `excludes` field in the config. This prevents templates, the license and other private files from being served on the site.
 
 ## Background
+
+### About static sites and Jekyll
 
 The Github Page service lets you build and serve a statically generated site.
 
 The most basic way is to serve some flat HTML files (and other assets) without any logic. This is great for a one page site with custom styling (rather than using a theme).
 
-Another way is to use a Jekyll-based project. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files. This project is a base setup for the latter.
+This project is more advanced and use the Jekyll-based project, by adding the Jekyll [config](/_config.yml) file. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files. Note that the [Gemfile](/Gemfile) is used for local development and not used by Github Pages.
+
+### This project's origin
 
 This repo is based on an example provided by Jekyll, available as the [jekyll/example](https://github.com/jekyll/example) repo. One way to get that example is to run the command from a [Jekyll](https://jekyllrb.com/) tutorial:
 
