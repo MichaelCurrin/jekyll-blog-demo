@@ -1,6 +1,9 @@
 {
     "files.associations": {
+        // Allow Jekyll Liquid syntax to be picked up correctly for validation and highlighting.
         "*.html": "jekyll",
-        "*.md": "jekyll"
+        "*.md": "jekyll",
+        // Revert the above rule for a doc file.
+        "README.md": "markdown",
     },
 }
