@@ -3,13 +3,11 @@
 
 This project is serves as a starting point or a reference for creating a statically-generated website using _Jekyll_. It includes enough content and styling to demonstrate what a themed multi-page blog looks like. But the structure is easy to understand by keeping the number of files and lines of code low.
 
-## Features
+## Requirements
 
-- [Jekyll](https://jekyllrb.com/) is needed to build the site locally. Only a simple repo configuration change is needed to get this served as your own Github Pages site - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-- The [minima](https://github.com/jekyll/minima) Jekyll theme is used for styling.
-- The main content pages are markdown and HTML files at the top-level directory. Blog posts are in a subdirectory which can be deleted if not needed.
-- The pages use "layout" fields to point to template files for tyling and structure. There are no layouts in this project as the  theme's layouts are referenced though.
-- Jekyll builds to a `_site` directory both locally and on Github Pages. That directry contains public content that is served from the site's root URL. Certain files are not copied there based on Jekyll's rules and you can also added to the `excludes` field in the config. This prevents templates, the license and other private files from being served on the site.
+[Jekyll](https://jekyllrb.com/) is a static site generator written in _Ruby_. It is needed to build compile this project into a folder of static assets, which can be served in a variety of ways.
+
+You can serve the built site on a free _Github Pages_ URL. Only a simple repo configuration change is needed - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ## Background
 
@@ -28,6 +26,15 @@ This repo is based on an example provided by Jekyll, available as the [jekyll/ex
 ```bash
 $ jekyll new jekyll-blog-demo
 ```
+
+## Project structure
+
+This project follows the typical structure of a Jekyll-based site.
+
+- The main content pages are markdown and HTML files at the top-level directory. See [index.md](/index.md) and [about.md](./about.md). Blog posts are in the [_posts](/_posts) directory.
+- The pages use "layout" fields to point to template files for styling and structure. There are no layouts in this project as the  theme's layouts are referenced though.
+- The [minima](https://github.com/jekyll/minima) Jekyll theme is used for styling. This means that little or HTML is need in the content files from the first point above.
+- Jekyll builds to a `_site` directory both locally and on Github Pages. That directory contains public content that is served from the site's root URL. Certain files are not copied there based on Jekyll's rules and you can also added to the `excludes` field in the config. This prevents templates, the license and other private files from being served on the site.
 
 
 ## Usage
