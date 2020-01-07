@@ -6,7 +6,6 @@ _site/
 # Bundle's config.
 .bundle/
 vendor/
-Gemfile.lock
 
 # This file added when running `jekyll new PATH` or serving in incremental mode.
 .jekyll-metadata
