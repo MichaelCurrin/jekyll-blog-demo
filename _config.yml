@@ -60,21 +60,24 @@ plugins:
 # We want to only copy to the _site directory the files and directories which we want to be
 # served publically.
 
-# At the very least, set the below in your `exclude `field.
+# Jekyll will ignore files starting with a dot or underscore, but there are other files we 
+# want to ignore. So set these below in your `exclude `field. The Makefile line can be 
+# omitted if you do not have one. The slash is optional but helps indicate directories vs files.
 
 exclude:
   - vendor/
+  - Makefile
   - LICENSE
   - README.md
   - Gemfile
   - Gemfile.lock
 
-# Add these, if relevant for your project:
+# Also add these if relevant for your project:
 # - bin/
 # - docs/
 # - node_modules/
 
-# If you leave `exclude` out of your config, you will still get the fallback values below:
+# If you leave out `exclude` from your config, you will still get the fallback values below:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
