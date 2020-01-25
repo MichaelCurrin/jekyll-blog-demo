@@ -73,7 +73,7 @@ Since this is a project page, the subpath of `jekyll-blog-demo` is automatically
 
 ## Installation
 
-Setup the project locally - instructions are for _Linux_ or _macOS_ systems.
+Setup the project locally - instructions are for Unix-like (_Linux_ or _macOS_) systems.
 
 ### Clone
 
@@ -83,7 +83,7 @@ Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can view commands in the [Makefile](./Makefile) or continue.
+You can view the commands available in the [Makefile](/Makefile).
 
 ```bash
 $ make help
@@ -91,15 +91,20 @@ $ make help
 
 ### System dependencies
 
-Install [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally.
+Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems) using a command appropriate for your OS.
+
+Install the [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally using the command below.
 
 ```bash
 $ gem install jekyll bundler
 ```
 
+_Jekyll_ is used to build static sites. _Bundler_ is used to manage Ruby gem depedencies in an isolated directory, to preserve your global gems.
+
+
 ### Project dependencies.
 
-Install gems. If run repeatedly, this command will **not** upgrade gems.
+Install gems.
 
 ```bash
 $ make install
