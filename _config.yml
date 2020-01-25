@@ -66,11 +66,11 @@ plugins:
 
 exclude:
   - vendor/
-  - Makefile
   - LICENSE
   - README.md
   - Gemfile
   - Gemfile.lock
+  - Makefile
 
 # Also add these if relevant for your project:
 # - bin/
