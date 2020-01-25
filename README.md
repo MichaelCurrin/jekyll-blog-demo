@@ -73,7 +73,7 @@ Since this is a project page, the subpath of `jekyll-blog-demo` is automatically
 
 ## Installation
 
-Setup the project locally - instructions are for Unix-like (_Linux_ or _macOS_) systems.
+Setup this project locally - instructions are for Unix-like (_Linux_ or _macOS_) systems.
 
 ### Clone
 
@@ -99,7 +99,7 @@ Install the [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) g
 $ gem install jekyll bundler
 ```
 
-_Jekyll_ is used to build static sites. _Bundler_ is used to manage Ruby gem depedencies in an isolated directory, to preserve your global gems.
+_Jekyll_ is used to build static sites. _Bundler_ is used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
 
 
 ### Project dependencies.
@@ -116,7 +116,7 @@ Run this command in future to upgrade to the latest gems.
 $ make upgrade
 ```
 
-The [Gemfile.lock](/Gemfile.lock) file will be updated if there are any changes. You can commit this. That file is optional for Github Pages but required if you want to deploy to Netlify.
+When you upgrade, the [Gemfile.lock](/Gemfile.lock) file will be updated, if there are any changes. You can commit this to your own repo. This file is optional for _Github Pages_ but required if you want to deploy to _Netlify_.
 
 ## Run
 
@@ -133,7 +133,6 @@ $ make serve
 Open the browser at:
 
 - http://localhost:4000/jekyll-blog-demo
-
 
 ### On root path
 
