@@ -22,9 +22,34 @@ You can serve the built site on a free _Github Pages_ URL. Only a simple repo co
 
 The Github Page service lets you build and serve a statically generated site.
 
-The most basic way is to serve some flat HTML files (and other assets) without any logic. This is great for a one page site with custom styling (rather than using a theme).
+The most basic way is to serve some flat HTML files (and other assets) without any logic. This is great for a one-page site with custom styling (rather than using a theme).
 
-This project is more advanced and use the Jekyll-based project, by adding the Jekyll [config](/_config.yml) file. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files. Note that the [Gemfile](/Gemfile) is used for local development and not used by Github Pages.
+This project is more advanced and runs with Jekyll. This is done by adding a [\_config.yml](/_config.yml) file. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files.
+
+Note that the [Gemfile](/Gemfile) is used for local development and not used by Github Pages.
+
+### Simple site
+
+The simplest Jekyll site with theme would be as follows:
+
+- **index.md**
+    ```
+    ---
+    layout: home
+    ---
+    
+    Hello, world!
+    
+    More content goes here. Markdown is valid here.
+    
+    <b>HTML</b> is valid here too.
+    ```
+- **\_config.yml**
+    ```
+    theme: minima
+    ```
+
+That uses a theme supported by Github Pages and a layout which comes with the theme - you do not need a layouts folder but you can choose to override or create layout files.
 
 ### This project's origin
 
