@@ -45,13 +45,15 @@ A basic Jekyll site with theme can be made using files as follows:
     <b>HTML</b> is valid here too.
     ```
 - **\_config.yml** - Tell Github Pages to use a certain theme.
-    ```
+    ```yml
     theme: minima
     ```
 
 We use the the `home` layout above, though this could be `page` or `default` depending on the look we want and what the theme supports. Not all themes will have `home` as a layout.
 
 The `minima` theme we use is supported by Github Pages and it comes with a `home` layout. You do not need a layouts folder, but you can choose to override or create layout files.
+
+As an alternative to setting the theme by hand, you can set this theme by choosing a theme on Github Pages section of your repo's Settings. That view also lets you preview a theme before saving it (which then creates/updates the config for you).
 
 ### This project's origin
 
