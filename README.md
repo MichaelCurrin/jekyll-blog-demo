@@ -30,9 +30,9 @@ Note that the [Gemfile](/Gemfile) is used for local development and not used by 
 
 ### Simple site
 
-The simplest Jekyll site with theme would be as follows:
+A basic Jekyll site with theme can be made using files as follows:
 
-- **index.md**
+- **index.md** - The website homepage, including which layout to use and some body content.
     ```
     ---
     layout: home
@@ -44,12 +44,14 @@ The simplest Jekyll site with theme would be as follows:
     
     <b>HTML</b> is valid here too.
     ```
-- **\_config.yml**
+- **\_config.yml** - Tell Github Pages to use a certain theme.
     ```
     theme: minima
     ```
 
-That uses a theme supported by Github Pages and a layout which comes with the theme - you do not need a layouts folder but you can choose to override or create layout files.
+We use the the `home` layout above, though this could be `page` or `default` depending on the look we want and what the theme supports. Not all themes will have `home` as a layout.
+
+The `minima` theme we use is supported by Github Pages and it comes with a `home` layout. You do not need a layouts folder, but you can choose to override or create layout files.
 
 ### This project's origin
 
