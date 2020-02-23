@@ -1,5 +1,5 @@
 # Jekyll Blog Demo
-> Minimal base for a static website - built with Jekyll.
+> Minimal base for a static website built with Jekyll and a theme.
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-green.svg)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 [![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
