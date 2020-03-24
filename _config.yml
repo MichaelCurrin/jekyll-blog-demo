@@ -65,19 +65,15 @@ plugins:
 # omitted if you do not have one. The slash is optional but helps indicate directories vs files.
 
 exclude:
-  - vendor/
   - LICENSE
   - README.md
-  - Gemfile
-  - Gemfile.lock
   - Makefile
 
 # Also add these if relevant for your project:
 # - bin/
 # - docs/
-# - node_modules/
 
-# If you leave out `exclude` from your config, you will still get the fallback values below:
+# These are always excluded, so you never have to add them to your list. At least in Jekyll v4 - TBC in v3.
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
