@@ -34,10 +34,21 @@ github_username:  jekyll
 
 ### Build settings ###
 
-# the subpath of your site, e.g. /blog
-baseurl: "/jekyll-blog-demo"
-# the base hostname & protocol for your site, e.g. https://example.com
+# Your website will be served on:
+# {url}/{baseurl}
+# e.g. https://MichaelCurrin.github.com/jekyll-blog-demo
+# Set this up using the next two parameters.
+
+# The base hostname AND protocol for your site, e.g. 'https://example.com'.
+# This ONLY applied for a prod build, so this won't be used on a local dev build.
 url: ""
+# If using Github Pages as a project site (USERNAME.github.io/my-project), 
+# this should be a forwardslash, followed by the name of your repo. 
+# Your site will be served from this URL so all URLs on the page should relative to this too.
+#
+# If using a Github Pages as a user site (USERNAME.github.io/)
+# or using Netlify, this can be empty.
+baseurl: "/jekyll-blog-demo"
 
 markdown: kramdown
 theme: minima
