@@ -42,8 +42,8 @@ github_username:  jekyll
 # The base hostname AND protocol for your site, e.g. 'https://example.com'.
 # Do not use a trailing forward slash.
 # This value ONLY applied for a prod build by setting a Jekyll variable, 
-# so this won't be used on a local build or even on Github Pages.
-url: ""
+# so this won't be used on a local build.
+url: "https://michaelcurrin.github.io"
 # If using Github Pages as a project site (USERNAME.github.io/my-project), 
 # this should be a forwardslash, followed by the name of your repo. 
 # Your site will be served from this URL so all URLs on the page should relative to this too.
