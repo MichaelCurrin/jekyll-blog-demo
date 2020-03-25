@@ -41,8 +41,12 @@ github_username:  jekyll
 
 # The base hostname AND protocol for your site, e.g. 'https://example.com'.
 # Do not use a trailing forward slash.
-# This value ONLY applied for a prod build by setting a Jekyll variable, 
-# so this won't be used on a local build.
+# This value ONLY applied for a prod build:
+#  - By deploying to Github Pages
+#  - Or when setting JEKYLL_ENV='production' as an environment variable locally
+#    or on Netlify.
+# It is recommended to set this at least for the canonical tag to be aware of the full domain,
+# as that is recommended but not required for use by crawlers. 
 url: "https://michaelcurrin.github.io"
 # If using Github Pages as a project site (USERNAME.github.io/my-project), 
 # this should be a forwardslash, followed by the name of your repo. 
