@@ -3,5 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+
 ---
-This is the home page.
+
+Welcome to **Jekyll Blog Demo**
+
+> Minimal base for a static website built with Jekyll and a theme.
+
+- Github repo: [MichaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo)
+- Hosted using: [Github Pages](https://pages.github.com/)
