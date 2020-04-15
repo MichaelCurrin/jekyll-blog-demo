@@ -12,6 +12,11 @@ Run this project on a local webserver or on _Github Pages_.
 
 ## Requirements
 
+- Github account (for use with Github Pages)
+- Ruby
+- Bundler
+- Jekyll
+
 [Jekyll](https://jekyllrb.com/) is a static site generator written in _Ruby_. It is needed to build compile this project into a folder of static assets, which can be served in a variety of ways.
 
 You can serve the built site on a free _Github Pages_ URL. Only a simple repo configuration change is needed - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
@@ -147,6 +152,7 @@ $ make upgrade
 ```
 
 When you upgrade, the [Gemfile.lock](/Gemfile.lock) file will be updated, if there are any changes. You can commit this to your own repo. This file is optional for _Github Pages_ but required if you want to deploy to _Netlify_.
+
 
 ## Run
 
