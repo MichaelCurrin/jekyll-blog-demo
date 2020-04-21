@@ -106,6 +106,13 @@ Through setting Github Pages section of the Github repo's settings, this site is
 Since this is a project page, the subpath of `jekyll-blog-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
 
 
+## Requirements
+
+- _Ruby_ - Install the gems below. 
+- _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
+- _Jekyll_ - Used to build static sites. 
+
+
 ## Installation
 
 Setup this project locally - instructions are for Unix-like (_Linux_ or _macOS_) systems.
@@ -126,15 +133,11 @@ $ make help
 
 ### System dependencies
 
-Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems) using a command appropriate for your OS.
+Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3ecf119620f) to install:
 
-Install the [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally using the command below.
-
-```bash
-$ gem install jekyll bundler
-```
-
-_Jekyll_ is used to build static sites. _Bundler_ is used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
+- Ruby
+- Bundler
+- Jekyll
 
 
 ### Project dependencies.
