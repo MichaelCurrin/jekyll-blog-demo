@@ -1,25 +1,26 @@
 # Jekyll Blog Demo
 > Minimal base for a static website built with Jekyll and a theme.
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-green.svg)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
-[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
+[[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/LICENSE)
 
-This project is serves as a starting point or a reference for creating a statically-generated website using _Jekyll_. It includes enough content and styling to demonstrate what a themed multi-page blog looks like. But the structure is easy to understand by keeping the number of files and lines of code low.
+![Use this template](https://img.shields.io/badge/Use_this_template-green.svg?styles=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
-Run this project on a local webserver or on _Github Pages_.
 
-## Requirements
+This project serves as a starting point or a reference for building a statically-generated website using [Jekyll](https://jekyllrb.com/) and includes enough content and styling to demonstrate what a themed multi-page blog looks like, while the structure is easy to understand by keeping the number of files and lines of code low.
 
-- Github account (for use with Github Pages)
-- Ruby
-- Bundler
-- Jekyll
+Run this project as a local webserver or on Github Pages. Only a simple repo configuration change is needed after you use this template - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-[Jekyll](https://jekyllrb.com/) is a static site generator written in _Ruby_. It is needed to build compile this project into a folder of static assets, which can be served in a variety of ways.
 
-You can serve the built site on a free _Github Pages_ URL. Only a simple repo configuration change is needed - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+## Demo site
+
+Through setting Github Pages section of the Github repo's settings, this site is available at:
+
+- [michaelcurrin.github.io/jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo)
+
+Since this is a project site and note a user site, the subpath of `jekyll-blog-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
+
 
 ## Background
 
@@ -68,6 +69,7 @@ This repo is based on an example provided by Jekyll, available as the [jekyll/ex
 $ jekyll new jekyll-blog-demo
 ```
 
+
 ## Project structure
 
 This project follows the typical structure of a Jekyll-based site.
@@ -92,22 +94,15 @@ You can remove these and add more content pages or blog posts. If you don't need
 
 This project uses the following gems, which came with the sample blog:
 
-- [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. _"Jekyll is a blog-aware static site generator in Ruby"_
+- [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. Installed in the project gems rather than globally. _"Jekyll is a blog-aware static site generator in Ruby"_
 - [minima](https://github.com/jekyll/minima) - This is a theme to add styling to built pages. _"Minima is a one-size-fits-all Jekyll theme for writers."_
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed) - Produce RSS feed. _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
 
 
-## Run on Github Pages
-
-Through setting Github Pages section of the Github repo's settings, this site is available at:
-
-- [michaelcurrin.github.io/jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo)
-
-Since this is a project page, the subpath of `jekyll-blog-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
-
 
 ## Requirements
 
+- Github account
 - _Ruby_ - Install the gems below. 
 - _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
 - _Jekyll_ - Used to build static sites. 
