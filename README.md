@@ -1,11 +1,11 @@
 # Jekyll Blog Demo
 > Minimal base for a static website built with Jekyll and a theme.
 
-[[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
+[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/LICENSE)
 
-![Use this template](https://img.shields.io/badge/Use_this_template-green.svg?styles=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-green.svg?styles=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
 
 This project serves as a starting point or a reference for building a statically-generated website using [Jekyll](https://jekyllrb.com/) and includes enough content and styling to demonstrate what a themed multi-page blog looks like, while the structure is easy to understand by keeping the number of files and lines of code low.
