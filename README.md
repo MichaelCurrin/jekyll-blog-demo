@@ -1,12 +1,15 @@
 # Jekyll Blog Demo
 > Minimal base for a static website built with Jekyll and a theme.
 
-[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
+[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
+[![Theme Minima](https://img.shields.io/badge/Theme-Minima-blue.svg)](https://github.com/jekyll/minima)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/LICENSE)
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-green.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
+
+## Purpose
 
 This project serves as a starting point or a reference for building a statically-generated website using [Jekyll](https://jekyllrb.com/) and includes enough content and styling to demonstrate what a themed multi-page blog looks like, while the structure is easy to understand by keeping the number of files and lines of code low.
 
@@ -17,7 +20,7 @@ Run this project as a local webserver or on Github Pages. Only a simple repo con
 
 Through setting Github Pages section of the Github repo's settings, this site is available at:
 
-- [michaelcurrin.github.io/jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo)
+- [michaelcurrin.github.io/jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
 Since this is a project site and note a user site, the subpath of `jekyll-blog-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
 
@@ -97,7 +100,6 @@ This project uses the following gems, which came with the sample blog:
 - [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. Installed in the project gems rather than globally. _"Jekyll is a blog-aware static site generator in Ruby"_
 - [minima](https://github.com/jekyll/minima) - This is a theme to add styling to built pages. _"Minima is a one-size-fits-all Jekyll theme for writers."_
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed) - Produce RSS feed. _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
-
 
 
 ## Requirements
