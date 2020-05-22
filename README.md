@@ -14,7 +14,9 @@
 
 This project serves as a starting point or a reference for building a statically-generated website using [Jekyll](https://jekyllrb.com/) and includes enough content and styling to demonstrate what a themed multi-page blog looks like, while the structure is easy to understand by keeping the number of files and lines of code low.
 
-Run this project as a local webserver or on Github Pages. Only a simple repo configuration change is needed after you use this template - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Run this project as a local web server or remotely such as on [Github Pages](https://pages.github.com/) or Netlify.
+
+Only a simple repo configuration change is needed after you use this template - see the [Github Pages tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in Github's docs. 
 
 _Note: This project's are instructions intended for Linux or macOS environment._
 
