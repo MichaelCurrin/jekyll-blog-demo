@@ -16,6 +16,8 @@ This project serves as a starting point or a reference for building a statically
 
 Run this project as a local webserver or on Github Pages. Only a simple repo configuration change is needed after you use this template - see [tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
+_Note: This project's are instructions intended for Linux or macOS environment._
+
 
 ## Demo site
 
@@ -43,7 +45,7 @@ Note that the [Gemfile](/Gemfile) is used for local development and not used by 
 A basic Jekyll site with theme can be made using files as follows:
 
 - **index.md** - The website homepage, including which layout to use and some body content.
-    ```
+    ```markdown
     ---
     layout: home
     ---
@@ -55,7 +57,7 @@ A basic Jekyll site with theme can be made using files as follows:
     <b>HTML</b> is valid here too.
     ```
 - **\_config.yml** - Tell Github Pages to use a certain theme.
-    ```yml
+    ```yaml
     theme: minima
     ```
 
@@ -69,7 +71,7 @@ As an alternative to setting the theme by hand, you can set this theme by choosi
 
 This repo is based on an example provided by Jekyll, available as the [jekyll/example](https://github.com/jekyll/example) repo. One way to get that example is to run the command from a [Jekyll](https://jekyllrb.com/) tutorial:
 
-```bash
+```sh
 $ jekyll new jekyll-blog-demo
 ```
 
@@ -131,7 +133,7 @@ $ make help
 
 ### System dependencies
 
-Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3ecf119620f) to install:
+Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3ecf119620f) to install the following:
 
 - Ruby
 - Bundler
@@ -142,13 +144,13 @@ Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3e
 
 Install gems.
 
-```bash
+```sh
 $ make install
 ```
 
 Run this command in future to upgrade to the latest gems.
 
-```bash
+```sh
 $ make upgrade
 ```
 
@@ -163,7 +165,7 @@ Build to the `_site` directory and start the web server.
 
 Set `baseurl` value in the config - this should be changed to match the repo name. This makes it easy to mirror how sites [run on Github Pages](#run-on-github-pages).
 
-```bash
+```sh
 $ make serve
 ```
 
@@ -173,7 +175,7 @@ Open the browser at:
 
 ### On root path
 
-```bash
+```sh
 $ make serve-root
 ```
 
@@ -186,7 +188,7 @@ Open the browser at:
 
 When building site content to deploy to production, replace the default `'development'` value with `production`.
 
-```bash
+```sh
 $ make build-prod
 ```
 
