@@ -105,6 +105,8 @@ This project uses the following gems, which came with the sample blog:
 - [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. Installed in the project gems rather than globally. _"Jekyll is a blog-aware static site generator in Ruby"_
 - [minima](https://github.com/jekyll/minima) - This is a theme to add styling to built pages. _"Minima is a one-size-fits-all Jekyll theme for writers."_
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed) - Produce RSS feed. _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
+- **jekyll-seo** - this is not covered in the config plugins list but is still used by mimima theme. Check the "SEO plugin" tag in the HTML.
+- **jekyll-sitemap** - adds a `sitemap.xml` and `robots.txt` file to the site.
 
 
 ## Requirements
