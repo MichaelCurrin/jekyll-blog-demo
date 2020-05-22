@@ -78,7 +78,9 @@ $ jekyll new jekyll-blog-demo
 ```
 
 
-## Project structure
+## About
+
+### Project structure
 
 This project follows the typical structure of a Jekyll-based site.
 
@@ -88,7 +90,7 @@ This project follows the typical structure of a Jekyll-based site.
 - Jekyll builds to a `_site` directory both locally and on Github Pages. That directory contains public content that is served from the site's root URL. Certain files are not copied there based on Jekyll's rules and you can also added to the `excludes` field in the config. This prevents templates, the license and other private files from being served on the site.
 
 
-## Customization
+### Customization
 
 Create a project from this template or fork it. Then update it to suit your own needs.
 
@@ -98,23 +100,16 @@ Create a project from this template or fork it. Then update it to suit your own 
 You can remove these and add more content pages or blog posts. If you don't need markdown you can convert files from `.md` to `.html` and change the content.
 
 
-## Gems
+### Gems
 
 This project uses the following gems, which came with the sample blog:
 
 - [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. Installed in the project gems rather than globally. _"Jekyll is a blog-aware static site generator in Ruby"_
 - [minima](https://github.com/jekyll/minima) - This is a theme to add styling to built pages. _"Minima is a one-size-fits-all Jekyll theme for writers."_
-- [jekyll-feed](https://github.com/jekyll/jekyll-feed) - Produce RSS feed. _"A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts."_
-- **jekyll-seo** - this is not covered in the config plugins list but is still used by mimima theme. Check the "SEO plugin" tag in the HTML.
-- **jekyll-sitemap** - adds a `sitemap.xml` and `robots.txt` file to the site.
+- [jekyll-feed](https://github.com/jekyll/jekyll-feed)
+- [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+- [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
 
-
-## Requirements
-
-- Github account
-- _Ruby_ - Install the gems below. 
-- _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
-- _Jekyll_ - Used to build static sites. 
 
 
 ## Installation
@@ -139,9 +134,10 @@ $ make help
 
 Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3ecf119620f) to install the following:
 
-- Ruby
-- Bundler
-- Jekyll
+- _Ruby_ - Install the gems including Jekyll. 
+- _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
+- _Jekyll_ - Used to build the static site. 
+
 
 
 ### Project dependencies.
