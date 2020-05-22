@@ -4,7 +4,7 @@
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![Theme Minima](https://img.shields.io/badge/Theme-Minima-blue.svg)](https://github.com/jekyll/minima)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 [![Use this template](https://img.shields.io/badge/Use_this_Template-green.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
@@ -197,3 +197,8 @@ $ make build-prod
 This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
 Then copy the contents of *_site* directory to your server and serve with Apache or a similar web server.
+
+
+## License
+
+Released under [MIT](/LICENSE).
