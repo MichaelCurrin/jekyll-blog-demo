@@ -59,6 +59,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  
+# Use `/foo/` instead of `/foo.html` for paths.
+permalink: pretty
 
 # Include for processing
 
