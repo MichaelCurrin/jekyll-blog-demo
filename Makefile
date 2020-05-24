@@ -2,7 +2,7 @@ help:
 	@egrep '^\S|^$$' Makefile
 
 
-install:
+i install:
 	bundle config --local path vendor/bundle
 	bundle install
 
@@ -19,7 +19,7 @@ r serve-root:
 	bundle exec jekyll serve --baseurl '' --livereload
 
 
-build:
+build-dev:
 	bundle exec jekyll build
 
 build-prod:
