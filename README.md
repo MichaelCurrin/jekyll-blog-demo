@@ -111,7 +111,6 @@ This project uses the following gems, which came with the sample blog:
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
 
 
-
 ## Installation
 
 Setup this project locally - instructions are for Unix-like (_Linux_ or _macOS_) systems.
@@ -124,7 +123,7 @@ Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can view the commands available in the [Makefile](/Makefile).
+You can view the commands available in the [Makefile](/Makefile) or skip to the next step. 
 
 ```bash
 $ make help
@@ -137,7 +136,6 @@ Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3e
 - _Ruby_ - Install the gems including Jekyll. 
 - _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
 - _Jekyll_ - Used to build the static site. 
-
 
 
 ### Project dependencies.
