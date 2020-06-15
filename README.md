@@ -54,9 +54,14 @@ A basic Jekyll site with theme can be made using files as follows:
     
     Hello, world!
     
-    More content goes here. Markdown is valid here.
+    More content goes here. Markdown is valid here. Make sure it is not indented otherwise at 4 spaces it becomes a codeblock.
     
-    <b>HTML</b> is valid here too.
+    <b class="foo">HTML</b> is valid in a `.md` file too.
+
+    - Markdown
+    - after
+    - the
+    - HTML works fine.
     ```
 - **\_config.yml** - Tell Github Pages to use a certain theme.
     ```yaml
