@@ -123,13 +123,13 @@ Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can view the commands available in the [Makefile](/Makefile) or skip to the next step. 
+You can view the commands available in the [Makefile](/Makefile) or skip to the next step. Note that `make` is not needed as you can run commands directly, but it does help as a shortcut especially to execute long commands easily. It is similar to running `npm run COMMAND` except works without a `package.json` file.
 
 ```bash
 $ make help
 ```
 
-### System dependencies
+### Install system dependencies
 
 Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3ecf119620f) to install the following:
 
@@ -138,9 +138,9 @@ Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3e
 - _Jekyll_ - Used to build the static site. 
 
 
-### Project dependencies.
+### Install project dependencies.
 
-Install gems.
+Install local gems.
 
 ```sh
 $ make install
