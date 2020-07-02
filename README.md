@@ -7,12 +7,6 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 
-## Sample
-
-
-![sample.png](/sample.png)
-
-
 ## How to use this project
 
 ### Make your own
@@ -22,6 +16,11 @@
 ### View site
 
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
+
+
+## Sample
+
+![sample.png](/sample.png)
 
 
 ## Purpose
