@@ -6,7 +6,21 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
+
+## Sample
+
+
+![sample.png](/sample.png)
+
+
+## How to use this project
+
+### Make your own
+
 [![Use this template](https://img.shields.io/badge/Use_this_Template-green.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+
+### View site
+
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
 
