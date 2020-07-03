@@ -12,11 +12,11 @@ upgrade:
 
 # Serve on subpath, as on Github Pages "Project" site.
 s serve:
-	bundle exec jekyll serve  --trace --livereload
+	bundle exec jekyll serve --trace --livereload
 
-# Serve on root, as on Github Pages "User" site or Netlify.
+# Serve on root path, as on Github Pages "User" site or Netlify.
 r serve-root:
-	bundle exec jekyll serve  --trace --livereload --baseurl ''
+	bundle exec jekyll serve --trace --livereload --baseurl ''
 
 
 build-dev:
