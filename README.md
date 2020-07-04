@@ -1,5 +1,5 @@
 # Jekyll Blog Demo
-> Minimal base for a static website built with Jekyll and a theme.
+> Minimal base for a static website built with Jekyll and a theme
 
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![Theme Minima](https://img.shields.io/badge/Theme-Minima-blue.svg)](https://github.com/jekyll/minima)
@@ -29,7 +29,7 @@ This project serves as a starting point or a reference for building a statically
 
 Run this project as a local web server or remotely such as on [Github Pages](https://pages.github.com/) or Netlify.
 
-Only a simple repo configuration change is needed after you use this template - see the [Github Pages tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in Github's docs. 
+Only a simple repo configuration change is needed after you use this template - see the [Github Pages tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in Github's docs.
 
 _Note: This project's are instructions intended for Linux or macOS environment._
 
@@ -40,7 +40,7 @@ Through setting Github Pages section of the Github repo's settings, this site is
 
 - [michaelcurrin.github.io/jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
-Since this is a project site and note a user site, the subpath of `jekyll-blog-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](_config.yml) file is also set to that subpath.
+Since this is a project site and note a user site, the subpath of `jekyll-blog-demo` is automatically set using the repo's name. In order to keep navigation and asset URLs in line with this and prevent errors, the `baseurl` in the [config](/_config.yml) file is also set to that subpath.
 
 
 ## Background
@@ -51,7 +51,7 @@ The Github Page service lets you build and serve a statically generated site.
 
 The most basic way is to serve some flat HTML files (and other assets) without any logic. This is great for a one-page site with custom styling (rather than using a theme).
 
-This project is more advanced and runs with Jekyll. This is done by adding a [\_config.yml](/_config.yml) file. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files.
+This project is more advanced and runs with Jekyll. This is done by adding a [\_config.yml](/_config.yml) file. This lets you use templating and themes, which makes it easier to avoid code duplication and lets you change out a theme in your config rather than your content files. Read more in this [config guide](https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/jekyll/project-files/config.md).
 
 Note that the [Gemfile](/Gemfile) is used for local development and not used by Github Pages.
 
@@ -64,11 +64,11 @@ A basic Jekyll site with theme can be made using files as follows:
     ---
     layout: home
     ---
-    
+
     Hello, world!
-    
+
     More content goes here. Markdown is valid here. Make sure it is not indented otherwise at 4 spaces it becomes a codeblock.
-    
+
     <b class="foo">HTML</b> is valid in a `.md` file too.
 
     - Markdown
@@ -151,9 +151,9 @@ $ make help
 
 Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3ecf119620f) to install the following:
 
-- _Ruby_ - Install the gems including Jekyll. 
+- _Ruby_ - Install the gems including Jekyll.
 - _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
-- _Jekyll_ - Used to build the static site. 
+- _Jekyll_ - Used to build the static site.
 
 
 ### Install project dependencies.
