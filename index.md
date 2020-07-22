@@ -6,12 +6,12 @@
 # This avoids showing it on the front (though that could be adapted in a layout too).
 
 layout: home
-
 ---
 
-Welcome to **Jekyll Blog Demo**
+Welcome to my **Jekyll Blog Demo**
 
 > Minimal base for a static website built with Jekyll and a theme.
 
 - Github repo: [MichaelCurrin/jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo)
 - Hosted using: [Github Pages](https://pages.github.com/)
+- Learn about Jekyll: [jekyllrb.com](https://jekyllrb.com)
