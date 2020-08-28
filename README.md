@@ -31,7 +31,7 @@ Run this project as a local web server or remotely such as on [Github Pages](htt
 
 Only a simple repo configuration change is needed after you use this template - see the [Github Pages tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in Github's docs.
 
-_Note: This project's are instructions intended for Linux or macOS environment._
+_Note: This project's are instructions intended for a Linux or macOS environment._
 
 
 ## Demo site
@@ -155,8 +155,7 @@ Follow this [gist](https://gist.github.com/MichaelCurrin/ddbcfb1714c4dbfb3460a3e
 - _Bundler_ - Used to manage Ruby gem dependencies in an isolated directory, to preserve your global gems.
 - _Jekyll_ - Used to build the static site.
 
-
-### Install project dependencies.
+### Install project dependencies
 
 Install local gems.
 
@@ -211,6 +210,18 @@ $ make build-prod
 This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
 Then copy the contents of *_site* directory to your server and serve with Apache or a similar web server.
+
+
+## Customization
+
+Update the values in the config file to match your project. Such as `url`.
+
+If you want Google Analytics tracking, this is already supported by the Minima theme used here. So just set the ID in the config file:
+
+- `_config.yml`
+    ```yml
+    google_analytics: UA-123467-78
+    ```
 
 
 ## License
