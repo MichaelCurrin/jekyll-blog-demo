@@ -14,6 +14,6 @@ Welcome to my **Jekyll Blog Demo**
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
-[![Repo Jekyll Blog Demo](https://img.shields.io/badge/Repo-Jekyll_Blog_Demo-blue)](https://github.com/MichaelCurrin/jekyll-blog-demo)
+[![Repo Jekyll Blog Demo](https://img.shields.io/badge/Repo-Jekyll_Blog_Demo-blue?logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 
 Hosted using [GitHub Pages](https://pages.github.com/). Built with Jekyll [jekyllrb.com](https://jekyllrb.com).
