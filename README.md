@@ -1,7 +1,7 @@
 # Jekyll Blog Demo
 > Base for a static website blog - built with Jekyll and the default theme
 
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo?include_prereleases&sort=semver)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue?logo=jekyll)](https://jekyllrb.com)
@@ -9,15 +9,7 @@
 
 ## How to use this project
 
-### Make your own
-
-<div align="center">
-            
-[![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
-
-</div>
-
-### View site
+### View demo site
 
 <div align="center">
 
@@ -25,10 +17,18 @@
 
 </div>
 
+### Make your own blog
 
-## Sample
+<div align="center">
+            
+[![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
-![Preview screenshot](/sample.png)
+</div>
+
+
+## Preview
+
+![Sample screenshot](/sample.png)
 
 
 ## Purpose
