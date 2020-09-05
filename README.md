@@ -1,11 +1,11 @@
 # Jekyll Blog Demo
 > Minimal base for a static website built with Jekyll and a theme
 
-[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
-[![Theme Minima](https://img.shields.io/badge/Theme-Minima-blue.svg)](https://github.com/jekyll/minima)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
+[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue?logo=jekyll)](https://jekyllrb.com)
+[![Theme Minima](https://img.shields.io/badge/Theme-Minima-blue.svg)](https://github.com/jekyll/minima)
 
 ## How to use this project
 
