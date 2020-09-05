@@ -11,11 +11,19 @@
 
 ### Make your own
 
-[![Use this template](https://img.shields.io/badge/Use_this_Template-green.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+<div align="center>
+            
+[![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+
+</div>
 
 ### View site
 
+<div align="center>
+
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
+
+</div>
 
 
 ## Sample
