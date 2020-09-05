@@ -1,5 +1,5 @@
 # Jekyll Blog Demo
-> Minimal base for a static website built with Jekyll and a theme
+> Base for a static website blog - built with Jekyll and the default theme
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
