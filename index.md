@@ -10,7 +10,7 @@ layout: home
 
 Welcome to my **Jekyll Blog Demo**
 
-> Minimal base for a static website built with Jekyll and a theme
+> Base for a static website blog - built with Jekyll and the default theme
 
 <!-- Adding div align="center" converted to plain markdown unfortunately so let that out -->
 
