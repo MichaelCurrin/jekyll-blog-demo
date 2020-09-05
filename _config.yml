@@ -3,9 +3,9 @@
 title: Jekyll Blog Demo
 description: "Minimal base for a static website built with Jekyll and a theme"
 
-email: your-email@example.com
-twitter_username: jekyllrb
-github_username: jekyll
+email:
+twitter_username:
+github_username: MichaelCurrin
 
 ### Build settings ###
 
