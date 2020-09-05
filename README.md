@@ -130,11 +130,19 @@ You can remove these and add more content pages or blog posts. If you don't need
 
 This project uses the following gems, which came with the sample blog:
 
-- [jekyll](https://github.com/jekyll/jekyll) - This builds the site locally or in the cloud. Installed in the project gems rather than globally. _"Jekyll is a blog-aware static site generator in Ruby"_
-- [minima](https://github.com/jekyll/minima) - This is a theme to add styling to built pages. _"Minima is a one-size-fits-all Jekyll theme for writers."_
+- [jekyll](https://github.com/jekyll/jekyll) 
+    - This builds the site locally or in the cloud. Installed in the project gems rather than globally. 
+    - > "Jekyll is a blog-aware static site generator in Ruby"
+- [minima](https://github.com/jekyll/minima) 
+    - This is a theme to add styling to built pages. 
+    - > "Minima is a one-size-fits-all Jekyll theme for writers."
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed)
-- [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+    - Add Atom feed around blog posts.
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
+    - Add `robots.txt` and `sitemap.xml` files.
+- [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+    - Add SEO metadata tags to the page.
+    - This used by the theme and its templately so does not have to be covered directly in this blog's config, unlike the two covered above.
 
 
 ## Installation
@@ -148,7 +156,6 @@ Optionally this to your own repo - either fork this repo or click _Use this Temp
 Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
-
 You can view the commands available in the [Makefile](/Makefile) or skip to the next step. Note that `make` is not needed as you can run commands directly, but it does help as a shortcut especially to execute long commands easily. It is similar to running `npm run COMMAND` except works without a `package.json` file.
 
 ```bash
