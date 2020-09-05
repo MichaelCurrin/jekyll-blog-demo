@@ -12,14 +12,8 @@ Welcome to my **Jekyll Blog Demo**
 
 > Minimal base for a static website built with Jekyll and a theme
 
-<div align="center">
-
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
-
-</div>
 
 [![Repo Jekyll Blog Demo](https://img.shields.io/badge/Repo-Jekyll_Blog_Demo-blue)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 
-Hosted using: [GitHub Pages](https://pages.github.com/)
-
-Built with Jekyll - [jekyllrb.com](https://jekyllrb.com)
+Hosted using [GitHub Pages](https://pages.github.com/). Built with Jekyll [jekyllrb.com](https://jekyllrb.com).
