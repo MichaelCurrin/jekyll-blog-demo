@@ -11,7 +11,7 @@
 
 ### Make your own
 
-<div align="center>
+<div align="center">
             
 [![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
@@ -19,7 +19,7 @@
 
 ### View site
 
-<div align="center>
+<div align="center">
 
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
@@ -28,7 +28,7 @@
 
 ## Sample
 
-![sample.png](/sample.png)
+![Preview screenshot](/sample.png)
 
 
 ## Purpose
