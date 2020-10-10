@@ -125,6 +125,16 @@ Create a project from this template or fork it. Then update it to suit your own 
 
 You can remove these and add more content pages or blog posts. If you don't need markdown you can convert files from `.md` to `.html` and change the content.
 
+Update the values in the config file to match your project. Such as `url`.
+
+If you want Google Analytics tracking, this is already supported by the Minima theme used here. So just set the ID in the config file. 
+
+Example:
+
+- `_config.yml`
+    ```yaml
+    google_analytics: UA-123467-78
+    ```
 
 ### Gems
 
@@ -143,6 +153,16 @@ This project uses the following gems, which came with the sample blog:
 - [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
     - Add SEO metadata tags to the page.
     - This used by the theme and its templately so does not have to be covered directly in this blog's config, unlike the two covered above.
+
+If you are running on Windows, you might want to add these to `Gemfile`, as they came with the quickstart.
+
+```ruby
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+```
 
 
 ## Installation
@@ -187,11 +207,11 @@ $ make upgrade
 When you upgrade, the [Gemfile.lock](/Gemfile.lock) file will be updated, if there are any changes. You can commit this to your own repo. This file is optional for _Github Pages_ but required if you want to deploy to _Netlify_.
 
 
-## Run
+## Usage
 
 Build to the `_site` directory and start the web server.
 
-### On subpath
+### Serve on subpath
 
 Set `baseurl` value in the config - this should be changed to match the repo name. This makes it easy to mirror how sites [run on Github Pages](#run-on-github-pages).
 
@@ -203,7 +223,7 @@ Open the browser at:
 
 - http://localhost:4000/jekyll-blog-demo
 
-### On root path
+### Serve on root path
 
 ```sh
 $ make serve-root
@@ -224,19 +244,7 @@ $ make build-prod
 
 This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
-Then copy the contents of *_site* directory to your server and serve with Apache or a similar web server.
-
-
-## Customization
-
-Update the values in the config file to match your project. Such as `url`.
-
-If you want Google Analytics tracking, this is already supported by the Minima theme used here. So just set the ID in the config file:
-
-- `_config.yml`
-    ```yml
-    google_analytics: UA-123467-78
-    ```
+Then copy the contents of `_site` directory to your server and serve with Apache or a similar web server.
 
 
 ## License
