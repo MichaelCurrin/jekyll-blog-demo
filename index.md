@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-# Note that title left unset here as its not needed for the homepage.
-# This avoids showing it on the front (though that could be adapted in a layout too).
+# Note that title is left unset here as its not needed for the homepage.
+# This avoids showing it on the front page - though that could be adapted in a layout too.
 
 layout: home
 ---
@@ -12,9 +12,9 @@ Welcome to my **Jekyll Blog Demo**
 
 > Base for a static website blog - built with Jekyll and the default theme
 
-<!-- Adding div align="center" converted to plain markdown unfortunately so let that out -->
+<!-- Adding div align="center" converted to plain markdown unfortunately so leave that out and rather remake these as HTML -->
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
 [![Repo Jekyll Blog Demo](https://img.shields.io/badge/Repo-Jekyll_Blog_Demo-blue?logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 
