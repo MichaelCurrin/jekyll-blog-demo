@@ -17,11 +17,11 @@
 
 </div>
 
-### Make your own blog
+### Create a blog from this template
 
 <div align="center">
             
-[![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
 </div>
 
