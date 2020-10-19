@@ -4,23 +4,15 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo?include_prereleases&sort=semver)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue?logo=jekyll)](https://jekyllrb.com)
-[![Theme Minima](https://img.shields.io/badge/Theme-Minima-blue.svg)](https://github.com/jekyll/minima)
+[![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll)](https://jekyllrb.com)
+[![Made with Minima](https://img.shields.io/badge/minima-2.5-blue.svg)](https://github.com/jekyll/minima)
+
 
 ## How to use this project
-
-### View demo site
 
 <div align="center">
 
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
-
-</div>
-
-### Create a blog from this template
-
-<div align="center">
-            
 [![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
 </div>
