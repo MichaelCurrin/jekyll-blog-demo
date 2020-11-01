@@ -132,6 +132,9 @@ Example:
     google_analytics: UA-123467-78
     ```
 
+Note on [.gitignore](/.gitignore) - `.jekyll-metadata` is a file that should be ignored. It is created when running `jekyll new PATH` or more commonly when serving in incremental mode.
+
+
 ### Gems
 
 This project uses the following gems, which came with the sample blog:
