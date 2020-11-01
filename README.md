@@ -20,23 +20,27 @@
 
 ## Preview
 
-![Sample screenshot](/sample.png)
+![Sample screenshot](/sample.png "Sample screenshot)
 
 
 ## Purpose
 
 This project serves as a starting point or a reference for building a statically-generated website using [Jekyll](https://jekyllrb.com/) and includes enough content and styling to demonstrate what a themed multi-page blog looks like, while the structure is easy to understand by keeping the number of files and lines of code low.
 
-Run this project as a local web server or remotely such as on [Github Pages](https://pages.github.com/) or Netlify.
+Run this project as a local web server or remotely such as on [GitHub Pages](https://pages.github.com/) or Netlify.
 
-Only a simple repo configuration change is needed after you use this template - see the [Github Pages tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in Github's docs.
+Only a simple repo configuration change is needed after you use this template - see the [GitHub Pages tutorial](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in GitHub's docs.
 
 _Note: This project's are instructions intended for a Linux or macOS environment._
+
+Beginner tip for [Gemfile](/Gemfile) - this Gemfile is only used when running Jekyll locally i.e. it is **ignored** by GitHub Pages. It is useful when doing a GH Actions or Netlify build though.
+
+ Versions should match GH Pages versions - https://pages.github.com/versions/ .
 
 
 ## Demo site
 
-Through setting Github Pages section of the Github repo's settings, this site is available at:
+Through setting GitHub Pages section of the Github repo's settings, this site is available at:
 
 - [michaelcurrin.github.io/jekyll-blog-demo](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
@@ -119,7 +123,7 @@ You can remove these and add more content pages or blog posts. If you don't need
 
 Update the values in the config file to match your project. Such as `url`.
 
-If you want Google Analytics tracking, this is already supported by the Minima theme used here. So just set the ID in the config file. 
+If you want Google Analytics tracking, this is already supported by the Minima theme used here. So just set the ID in the config file.
 
 Example:
 
@@ -132,11 +136,11 @@ Example:
 
 This project uses the following gems, which came with the sample blog:
 
-- [jekyll](https://github.com/jekyll/jekyll) 
-    - This builds the site locally or in the cloud. Installed in the project gems rather than globally. 
+- [jekyll](https://github.com/jekyll/jekyll)
+    - This builds the site locally or in the cloud. Installed in the project gems rather than globally.
     - > "Jekyll is a blog-aware static site generator in Ruby"
-- [minima](https://github.com/jekyll/minima) 
-    - This is a theme to add styling to built pages. 
+- [minima](https://github.com/jekyll/minima)
+    - This is a theme to add styling to built pages.
     - > "Minima is a one-size-fits-all Jekyll theme for writers."
 - [jekyll-feed](https://github.com/jekyll/jekyll-feed)
     - Add Atom feed around blog posts.

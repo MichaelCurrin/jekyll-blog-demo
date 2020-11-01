@@ -1,7 +1,3 @@
-# Beginner tip:
-#   This Gemfile is only used when running Jekyll locally i.e. it is **ignored** by GitHub Pages.
-#   It is useful when doing a GH Actions or Netlify build though.
-#   Versions should match GH Pages versions - https://pages.github.com/versions/ .
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9"
