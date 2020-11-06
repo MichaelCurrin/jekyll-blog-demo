@@ -237,11 +237,10 @@ Open the browser at:
 
 When building site content to deploy to production, replace the default `'development'` value with `production`.
 
-```sh
-$ make build-prod
-```
 
-This will affect any conditional checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
+```sh
+$ make build
+```
 
 Then copy the contents of `_site` directory to your server and serve with Apache or a similar web server.
 
