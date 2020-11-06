@@ -20,7 +20,7 @@
 
 ## Preview
 
-![Sample screenshot](/sample.png "Sample screenshot)
+![Sample screenshot](/sample.png "Sample screenshot")
 
 
 ## Purpose
@@ -241,7 +241,7 @@ When building site content to deploy to production, replace the default `'develo
 $ make build-prod
 ```
 
-This will affect any checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
+This will affect any conditional checks in the files such as `if jekyll.environment == "production"`. This is useful for example to only show Google Analytics tag on Production site.
 
 Then copy the contents of `_site` directory to your server and serve with Apache or a similar web server.
 
