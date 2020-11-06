@@ -175,7 +175,8 @@ Optionally this to your own repo - either fork this repo or click _Use this Temp
 Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
-You can view the commands available in the [Makefile](/Makefile) or skip to the next step. Note that `make` is not needed as you can run commands directly, but it does help as a shortcut especially to execute long commands easily. It is similar to running `npm run COMMAND` except works without a `package.json` file.
+
+You can view the commands available in the [Makefile](/Makefile) or skip to the next step. Note that `make` only works in macOS or Linux. Thought, it is optional, as you can run commands directly
 
 ```bash
 $ make help
@@ -236,7 +237,6 @@ Open the browser at:
 ## Production build
 
 When building site content to deploy to production, replace the default `'development'` value with `production`.
-
 
 ```sh
 $ make build
