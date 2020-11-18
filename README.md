@@ -20,7 +20,7 @@
 
 ## Preview
 
-![Sample screenshot](/sample.png "Sample screenshot")
+[![Sample screenshot](/sample.png "Sample screenshot")](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
 
 ## Purpose
