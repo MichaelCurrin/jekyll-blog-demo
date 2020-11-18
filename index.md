@@ -12,12 +12,6 @@ Welcome to my **Jekyll Blog Demo**
 [![stars - jekyll-blog-demo](https://img.shields.io/github/stars/MichaelCurrin/jekyll-blog-demo?style=social)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 [![forks - jekyll-blog-demo](https://img.shields.io/github/forks/MichaelCurrin/jekyll-blog-demo?style=social)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 
-[![Hosted with - GitHub Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
-[![Jekyll - 3.9](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
-[![Made with Minima](https://img.shields.io/badge/minima-2.5-blue?logo=ruby)](https://github.com/jekyll/minima)
-
-
-## Use this project
 
 <div align="center">
     <a href="https://github.com/MichaelCurrin/jekyll-blog-demo/generate">
