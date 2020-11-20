@@ -202,17 +202,15 @@ $ make install
 Run this command in future to upgrade to the latest gems.
 
 ```sh
-$ make upgrade
+$ bundle update
 ```
 
-When you upgrade, the [Gemfile.lock](/Gemfile.lock) file will be updated, if there are any changes. You can commit this to your own repo. This file is optional for _Github Pages_ but required if you want to deploy to _Netlify_.
+When you upgrade, the `Gemfile.lock` file will be updated, if there are any changes. You can commit this to your own repo. This file is optional for _GitHub Pages_. 
 
 
 ## Usage
 
-Build to the `_site` directory and start the web server.
-
-### Serve on subpath
+### Start dev server
 
 Set `baseurl` value in the config - this should be changed to match the repo name. This makes it easy to mirror how sites [run on Github Pages](#run-on-github-pages).
 
@@ -224,26 +222,14 @@ Open the browser at:
 
 - http://localhost:4000/jekyll-blog-demo
 
-### Serve on root path
 
-```sh
-$ make serve-root
-```
-
-Open the browser at:
-
-- http://localhost:4000/
-
-
-## Production build
-
-When building site content to deploy to production, replace the default `'development'` value with `production`.
+### Build
 
 ```sh
 $ make build
 ```
 
-Then copy the contents of `_site` directory to your server and serve with Apache or a similar web server.
+View the output in `_site` directory, which can then be served as a static site.
 
 
 ## License
