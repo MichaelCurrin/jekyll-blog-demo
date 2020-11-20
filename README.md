@@ -36,7 +36,7 @@ _Note: This project's are instructions intended for a Linux or macOS environment
 
 Beginner tip for [Gemfile](/Gemfile) - this Gemfile is only used when running Jekyll locally i.e. it is **ignored** by GitHub Pages. It is useful when doing a GH Actions or Netlify build though.
 
- Versions should match GH Pages versions - https://pages.github.com/versions/ .
+Versions should match GH Pages versions - https://pages.github.com/versions/ .
 
 
 ## Demo site
