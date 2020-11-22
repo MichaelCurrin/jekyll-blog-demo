@@ -20,8 +20,8 @@ permalink: pretty
 exclude:
   - docs/
   - LICENSE
-  - README.md
   - Makefile
+  - README.md
   - sample.png
 
   # In Jekyll 4, the ones below (and 'node_modules') will always get excluded, so you never have to add them to your list.
