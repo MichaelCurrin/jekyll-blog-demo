@@ -26,7 +26,7 @@
 
 ## Documentation
 
-See the [docs](/docs/) directory.
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue)](/docs/)
 
 
 ## License
