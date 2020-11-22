@@ -6,6 +6,7 @@ description: "Base for a static website blog - built with Jekyll and the default
 email:
 twitter_username:
 github_username: MichaelCurrin
+rss: RSS
 
 ### Build settings ###
 
@@ -14,20 +15,17 @@ baseurl: "/jekyll-blog-demo"
 
 theme: minima
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
 permalink: pretty
 
 exclude:
+  - docs
   - LICENSE
   - README.md
   - Makefile
+  - sample.png
 
-  # In Jekyll 4, these are always excluded, so you never have to add them to your list.
-  # But in Jekyll 3, these are needed:
+  # In Jekyll 4, the ones below (and 'node_modules') will always get excluded, so you never have to add them to your list.
+  # But in Jekyll 3, these are needed.
+  - vendor/
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/
