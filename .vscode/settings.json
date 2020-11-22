@@ -3,7 +3,10 @@
         // Use "Jekyll (HTML)" so that Jekyll Liquid syntax is picked up correctly for validation and highlighting.
         "*.html": "jekyll",
         "*.md": "jekyll",
-        // Revert the above rule for a doc file.
+
+        // Revert the above rule for doc files.
         "README.md": "markdown",
-    },
+        "installation.md": "markdown",
+        "usage.md": "markdown"
+    }
 }
