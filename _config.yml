@@ -29,5 +29,3 @@ exclude:
 
 liquid:
   error_mode: strict
-  strict_variables: true
-  strict_filters: true
