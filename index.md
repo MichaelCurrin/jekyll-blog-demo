@@ -15,7 +15,7 @@ Welcome to my **Jekyll Blog Demo**
 
 <div align="center">
     <a href="https://github.com/MichaelCurrin/jekyll-blog-demo/generate">
-        <img src="https://img.shields.io/static/v1?label=+&amp;message=Use+this+template&amp;color=2ea44f&amp;style=for-the-badge&amp;logo=github" 
+        <img src="https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github"
             alt="Use this template" />
     </a>
 </div>
