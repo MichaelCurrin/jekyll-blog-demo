@@ -13,9 +13,9 @@ rss: RSS
 url: https://michaelcurrin.github.io
 baseurl: /jekyll-blog-demo
 
-theme: minima
-
 permalink: pretty
+
+theme: minima
 
 exclude:
   - docs/
