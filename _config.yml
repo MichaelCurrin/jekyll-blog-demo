@@ -17,9 +17,6 @@ permalink: pretty
 
 theme: minima
 
-plugins:
-  - jekyll-sitemap
-
 exclude:
   - docs/
   - vendor/
