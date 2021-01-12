@@ -18,6 +18,7 @@ permalink: pretty
 theme: minima
 
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
 
 exclude:
