@@ -33,3 +33,5 @@ exclude:
 
 liquid:
   error_mode: strict
+
+strict_front_matter: true
