@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        // Revert the above rule for doc files.
-        "README.md": "markdown",
-        "installation.md": "markdown",
-        "usage.md": "markdown"
-    }
-}
