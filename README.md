@@ -13,8 +13,8 @@
 
 <div align="center">
 
-[![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
-[![Use this template](https://img.shields.io/badge/Use_this_Template-2ea44f.svg?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+[![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_Template-2ea44f.svg?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
 </div>
 
