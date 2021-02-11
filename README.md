@@ -27,7 +27,11 @@
 
 ## Documentation
 
-[![view - Documentation](https://img.shields.io/badge/view-Project_docs-blue)](/docs/)
+<div align="center">
+
+[![view - Documentation](https://img.shields.io/badge/view-Project_docs-blue?style=for-the-badge)](/docs/)
+
+</div>
 
 
 ## License
