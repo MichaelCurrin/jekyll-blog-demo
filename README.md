@@ -1,4 +1,4 @@
-# Jekyll Blog Demo
+# Jekyll Blog Demo 🧪
 > Base for a static website blog - built with Jekyll and the default theme
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo?include_prereleases&sort=semver)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
@@ -14,6 +14,7 @@
 <div align="center">
 
 [![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
+
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_Template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
 </div>
@@ -26,7 +27,7 @@
 
 ## Documentation
 
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue)](/docs/)
+[![view - Documentation](https://img.shields.io/badge/view-Project_docs-blue)](/docs/)
 
 
 ## License
