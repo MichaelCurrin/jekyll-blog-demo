@@ -21,6 +21,16 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+collections:
+  tools:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
 exclude:
   - docs/
   - vendor/
