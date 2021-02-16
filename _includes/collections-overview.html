@@ -1,0 +1,18 @@
+<ul>
+    {% for collection in site.collections %}
+        {% unless collection.label == "posts" %}
+            <li>
+                    <h3>{{ collection.label }}</h3>
+                    <ul>
+                        {%- for c in collection.docs %}
+                            <li>
+                                <a href="{{ c.url | relative_url }}">
+                                    {{ c.title }}
+                                </a>
+                            </li>
+                        {% endfor -%}
+                    </ul>
+            </li>
+        {% endunless %}
+    {% endfor %}
+</ul>

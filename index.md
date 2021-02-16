@@ -20,3 +20,8 @@ Create a new Jekyll blog based on this demo.
             alt="Use this template" />
     </a>
 </div>
+
+
+## Collections
+
+{% include collections-overview.html %}
