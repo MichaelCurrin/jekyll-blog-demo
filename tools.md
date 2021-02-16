@@ -1,6 +1,5 @@
 ---
 title: Tools
-permalink: /tools/
 ---
 
 This page showcases how to list items in a specific collection.
