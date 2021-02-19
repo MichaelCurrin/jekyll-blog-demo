@@ -2,7 +2,7 @@
 > Base for a static website blog - built with Jekyll and the default theme
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo?include_prereleases&sort=semver)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Hosted with - GitHub Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 [![Jekyll](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![Site link](https://img.shields.io/badge/GH_Pages-Live_demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
+[![Site link](https://img.shields.io/badge/View_site-Jekyll-Blog-Demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
 
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_Template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
 
