@@ -6,3 +6,5 @@ description: |
 ---
 
 Read more on the [ruby-lang.org](https://www.ruby-lang.org/en/) homepage.
+
+Recommended - using Ruby 2.6 and Ruby 2.7 for a Jekyll site. Ruby 3 has been released but is not compatible yet.
