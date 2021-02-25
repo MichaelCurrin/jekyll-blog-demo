@@ -24,6 +24,8 @@ plugins:
 collections:
   tools:
     output: true
+  languages:
+    output: true
 
 defaults:
   - scope:
