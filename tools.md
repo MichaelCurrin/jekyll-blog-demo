@@ -1,5 +1,6 @@
 ---
 title: Tools
+description: What you need to make a static site that runs locally and on GitHub Pages
 ---
 
 This page showcases how to list items in a specific collection.
