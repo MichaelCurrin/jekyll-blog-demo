@@ -22,6 +22,8 @@ Create a new Jekyll blog based on this demo.
 </div>
 
 
-## Collections
+## Table of contents
+
+For Jekyll developers - this is a list of all collections and the pages under each.
 
 {% include collections-overview.html %}
