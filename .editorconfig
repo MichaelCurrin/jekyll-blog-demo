@@ -7,6 +7,6 @@ indent_size = 2
 [*.{md,html}]
 indent_size = 4
 
-[Makefile]
+[{Makefile,make.bat}]
 indent_style = tab
 indent_size = 4
