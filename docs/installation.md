@@ -1,6 +1,6 @@
 # Installation
 
-Setup this project locally - instructions are for Unix-like (_Linux_ or _macOS_) systems.
+Set up this project to run locally. On Linux, macOS or Windows.
 
 
 ## Requirements
@@ -38,7 +38,10 @@ Install local gems.
 $ make install
 ```
 
-Run this command in future to upgrade to the latest gems.
+
+## Upgrade
+
+Run this command if needed upgrade to the latest gems.
 
 ```sh
 $ make upgrade
