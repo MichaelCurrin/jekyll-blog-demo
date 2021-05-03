@@ -33,11 +33,11 @@ defaults:
     values:
       layout: page
 
+# Overriding Gemfile.lock is implied.
 exclude:
   - docs/
   - vendor/
   - Gemfile
-  - Gemfile.lock
   - LICENSE
   - Makefile
   - README.md
