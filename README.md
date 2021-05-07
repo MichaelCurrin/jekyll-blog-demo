@@ -10,6 +10,11 @@
 [![Hosted with - GitHub Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 
 
+## Preview
+
+[![Sample screenshot](/sample.png "Sample screenshot")](https://michaelcurrin.github.io/jekyll-blog-demo/)
+
+
 ## How to use this project
 
 <div align="center">
@@ -20,10 +25,7 @@
 
 </div>
 
-
-## Preview
-
-[![Sample screenshot](/sample.png "Sample screenshot")](https://michaelcurrin.github.io/jekyll-blog-demo/)
+This project now includes a demo of collections too. See the Languages section on the site, the `languages.md` file and the `_languages` directory. 
 
 
 ## Documentation
