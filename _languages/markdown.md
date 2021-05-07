@@ -5,6 +5,10 @@ description: Adding styling to your website without verbose HTML
 
 The Markdown name plays on the "markup" part of the HTML acronym.
 
+From [Markdowm homepage](https://daringfireball.net/projects/markdown/)
+
+> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+
 You need a markdown converter to turn markdown into HTML. Many IDEs, static site generators and websites (like GitHub) support writing in markdown. There are other stands too like Asciidoc and RST.
 
 Learn more on [Markdown guide](https://www.markdownguide.org/) site.
