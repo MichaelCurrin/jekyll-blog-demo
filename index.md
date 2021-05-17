@@ -5,8 +5,7 @@ layout: home
 
 <!-- TODO: Replace all the content below with you own -->
 
-Welcome to my **Jekyll Blog Demo**
-
+Welcome to my **Jekyll Blog Demo**.
 
 [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo)
 [![stars - jekyll-blog-demo](https://img.shields.io/github/stars/MichaelCurrin/jekyll-blog-demo?style=social)](https://github.com/MichaelCurrin/jekyll-blog-demo)
