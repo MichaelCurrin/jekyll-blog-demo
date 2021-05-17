@@ -25,7 +25,7 @@
 
 </div>
 
-This project now includes a demo of collections too. See the Languages section on the site, the `languages.md` file and the `_languages` directory. 
+This project was generated using the Jekyll CLi for a starting point. Now IT includes a demo of Jekyll _Collections_ too. See the _Languages_ section on the site, the `languages.md` file and the `_languages` directory. 
 
 
 ## Documentation
