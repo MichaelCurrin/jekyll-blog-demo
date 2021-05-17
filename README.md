@@ -1,5 +1,5 @@
-# Jekyll Blog Demo 🧪
-> Base for a static website blog - built with Jekyll and the default theme
+# Jekyll Blog Demo 🧪 📝 🚀
+> Starter for a static website or blog - built with Jekyll, a minimal theme and GH Pages
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo?include_prereleases&sort=semver)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
