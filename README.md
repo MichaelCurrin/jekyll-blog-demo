@@ -1,9 +1,12 @@
 # Jekyll Blog Demo 🧪 📝 🚀
 > Starter for a static website or blog - built with Jekyll, a minimal theme and GH Pages
 
+<!-- Badges generated with https://github.com/MichaelCurrin/badge-generator -->
+
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-blog-demo?include_prereleases&sort=semver)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+[![Made with Ruby](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
 [![Jekyll](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 [![Made with Minima](https://img.shields.io/badge/minima-2.5-blue?logo=ruby)](https://github.com/jekyll/minima)
 
@@ -12,7 +15,7 @@
 
 ## Preview
 
-[![Sample screenshot](/sample.png "Sample screenshot")](https://michaelcurrin.github.io/jekyll-blog-demo/)
+[![Sample screenshot](/sample.png "Sample screenshot")](https://michaelcurrin.github.io/jekyll-blog-demo/ "Go to demo site")
 
 
 ## How to use this project
@@ -25,7 +28,15 @@
 
 </div>
 
-This project was generated using the Jekyll CLi for a starting point. Now IT includes a demo of Jekyll _Collections_ too. See the _Languages_ section on the site, the `languages.md` file and the `_languages` directory. 
+This project was generated using the Jekyll CLI for a starting point. 
+
+Now it includes a demo of Jekyll _Collections_ too. See the _Languages_ section on the site, the `languages.md` file and the `_languages` directory. 
+
+Most sites will probably be okay with Jekyll 3 and GitHub Pages default environment, as used in this demo.
+
+But for more customization such as Jekyll 4 and GitHub Actions, see:
+
+- https://github.com/MichaelCurrin/jekyll-gh-actions-quickstart
 
 
 ## Documentation
