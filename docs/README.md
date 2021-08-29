@@ -2,3 +2,5 @@
 
 - [Installation](installation.md)
 - [Usage](usage.md)
+- [Template notes](template-notes/)
+
