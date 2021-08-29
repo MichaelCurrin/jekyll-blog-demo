@@ -1,6 +1,7 @@
 ### Site metadata ###
 
-title: Jekyll Blog Demo 🧪 📝 🚀
+# Don't make the title longer than this otherwise it gets covered in mobile view.
+title: Jekyll Blog Demo
 description: Starter for a static website or blog - built with Jekyll, a minimal theme and GH Pages
 
 email:
