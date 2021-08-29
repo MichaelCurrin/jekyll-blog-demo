@@ -1,4 +1,4 @@
-### Site metadata ###
+### Site metadata
 
 # Don't make the title longer than this otherwise it gets covered in mobile view.
 title: Jekyll Blog Demo
@@ -9,7 +9,7 @@ twitter_username:
 github_username: MichaelCurrin
 rss: RSS
 
-### Build settings ###
+### Build settings 
 
 url: https://michaelcurrin.github.io
 baseurl: /jekyll-blog-demo
@@ -34,7 +34,7 @@ defaults:
     values:
       layout: page
 
-# Overriding Gemfile.lock is implied.
+# Gemfile.lock is implied because of how matching works.
 exclude:
   - docs/
   - vendor/
