@@ -2,7 +2,7 @@
 title: HTML
 ---
 
-Files written with `.html` extension. No markdown allowed.
+Files written with `.html` extension. No Markdown allowed.
 
 Read more about HTML in my [resources](https://michaelcurrin.github.io/dev-resources/resources/web/html/).
 
