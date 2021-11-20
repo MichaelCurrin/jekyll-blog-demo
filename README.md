@@ -21,16 +21,20 @@
     </a>
 </div>
 
+<br>
+
+[![Site link](https://img.shields.io/badge/View_site-Jekyll_Blog_Demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/ "Go to demo site")
+
 
 ## How to use this project
 
 <div align="center">
 
-[![Site link](https://img.shields.io/badge/View_site-Jekyll_Blog_Demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/ "Go to demo site")
-
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_Template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate "Use this template")
 
 </div>
+
+Then customize the config with your own `url` and `baseurl` values. And follow docs below to install and run.
 
 
 ## Documentation
