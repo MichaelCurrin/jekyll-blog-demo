@@ -2,8 +2,6 @@
 
 ## Start dev server
 
-Set `baseurl` value in the config - this should be changed to match the repo name. This makes it easy to mirror how sites [run on Github Pages](#run-on-github-pages).
-
 ```sh
 $ make serve
 ```
