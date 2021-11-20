@@ -15,16 +15,20 @@
 
 ## Preview
 
-[![Sample screenshot](/sample.png "Sample screenshot")](https://michaelcurrin.github.io/jekyll-blog-demo/ "Go to demo site")
+<div align="center">
+    <a href="https://michaelcurrin.github.io/jekyll-blog-demo/">
+        <img src="/sample.png" alt="Sample screenshot" title="Go to demo site" width="400">
+    </a>
+</div>
 
 
 ## How to use this project
 
 <div align="center">
 
-[![Site link](https://img.shields.io/badge/View_site-Jekyll_Blog_Demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/)
+[![Site link](https://img.shields.io/badge/View_site-Jekyll_Blog_Demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/ "Go to demo site")
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_Template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_Template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/jekyll-blog-demo/generate "Use this template")
 
 </div>
 
@@ -33,7 +37,7 @@
 
 <div align="center">
 
-[![view - Documentation](https://img.shields.io/badge/view-Project_docs-blue?style=for-the-badge)](/docs/)
+[![view - Documentation](https://img.shields.io/badge/view-Project_docs-blue?style=for-the-badge)](/docs/ "Go to docs")
 
 </div>
 
