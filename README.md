@@ -25,6 +25,12 @@
 
 [![Site link](https://img.shields.io/badge/View_site-Jekyll_Blog_Demo-blue?style=for-the-badge)](https://michaelcurrin.github.io/jekyll-blog-demo/ "Go to demo site")
 
+Complete with machine-readable pages:
+
+- [/sitemap.xml](https://michaelcurrin.github.io/jekyll-blog-demo/sitemap.xml) from `jekyll-sitemap`.
+- [/robots.txt](https://michaelcurrin.github.io/jekyll-blog-demo/robots.txt) from `jekyll-sitemap`.
+- [/feed.xml](https://michaelcurrin.github.io/jekyll-blog-demo/feed.xml) Atom feed from `jekyll-feed`.
+
 
 ## How to use this project
 
