@@ -11,8 +11,9 @@ rss: RSS
 
 ### Build settings
 
-url: https://michaelcurrin.github.io
-baseurl: /jekyll-blog-demo
+# These will be automatically set by the GH Pages build
+url:
+baseurl:
 
 permalink: pretty
 
